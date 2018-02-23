@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jagadamba Motors</title>
+    <title>CASE</title>
     <!-- Favicon -->
     <link rel="icon" sizes="16x16" href="{{asset('assets/img/favicon-icon.png')}}">
     <!-- Bootstrap CSS -->
@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="logo">
-                    <a href="{{url('/')}}"><img src="{{asset('assets/img/jagadambalogo.png')}}" style="height: 80px" alt="Logo"></a>
+                    <a href="{{url('/')}}"><img src="{{asset('assets/img/.png')}}" style="height: 80px" alt="Logo"></a>
                 </div>
             </div>
 
@@ -68,7 +68,7 @@
                             <ul class="nav navbar-nav navbar-right">
 
                                 <li class="dropdown active">
-                                        <li><a href="{{url('/')}}">Home</a></li>
+                                <li><a href="{{url('/')}}">Home</a></li>
                                 </li>
 
                                 <li><a href="#group">Group</a></li>
@@ -169,9 +169,8 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <div class="section-title text-center">
-                    <h2><span>Our featured</span> Services</h2>
+                    <h2><span>Our featured</span> GROUP OF COMPANIES</h2>
                     <div class="car-icon">Jagadamba Group of Services&nbsp;&nbsp;&nbsp;<img src="assets/img/cars.png" alt="car"></div>
-                    <p>Jagadamba Group spans over industries like Automobile Education, Electronics, Energy, Finance, Housing, Insurance, Investment, Logistics, Service and many more.</p>
                 </div>
             </div>
         </div>
@@ -183,18 +182,18 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="services-item">
-                  <div class="box">
-                      <a href="{{url('/tvs')}}">
-                      <img src="{{asset('images/tvs.jpg')}}" alt="Image">
-                        <h3>TVS</h3>
-                        <div class="box-content">
-                            <h3 class="title">TVS</h3>
-                            <span class="post">Top leading Motor-cycle brand in Nepal.</span>
-                            <ul class="icon">
-                                <li style="color: white">Visit the site</li>
-                            </ul>
-                        </div>
-                      </a>
+                    <div class="box">
+                        <a href="{{url('/')}}">
+                            <img src="{{asset('images/tvs.jpg')}}" alt="Image">
+                            <h3>TVS</h3>
+                            <div class="box-content">
+                                <h3 class="title">TVS</h3>
+                                <span class="post">Top leading Motor-cycle brand in Nepal.</span>
+                                <ul class="icon">
+                                    <li style="color: white">Visit the site</li>
+                                </ul>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -202,17 +201,17 @@
             <div class="col-md-4">
                 <div class="services-item">
                     <div class="box">
-                        <a href="{{url('/case')}}">
+                        <a href="{{url('/')}}">
 
-                        <img src="{{asset('images/case.jpg')}}" alt="Image">
-                        <h3>CASE</h3>
-                        <div class="box-content">
-                            <h3 class="title">CASE</h3>
-                            <span class="post"></span>
-                            <ul class="icon">
-                                <li style="color: white">Visit the site</li>
-                            </ul>
-                        </div>
+                            <img src="{{asset('images/case.jpg')}}" alt="Image">
+                            <h3>CASE</h3>
+                            <div class="box-content">
+                                <h3 class="title">CASE</h3>
+                                <span class="post"></span>
+                                <ul class="icon">
+                                    <li style="color: white">Visit the site</li>
+                                </ul>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -220,17 +219,17 @@
             <div class="col-md-4">
                 <div class="services-item">
                     <div class="box">
-                     <a href="{{url('/jagcredits')}}">
-                        <img src="{{asset('images/tvs.jpg')}}" alt="Image">
-                        <h3>Jagadamba Credits</h3>
-                        <div class="box-content">
-                            <h3 class="title">Jagadamba Credits</h3>
-                            <span class="post">Helping you turn your future dreams into today's realities.</span>
-                            <ul class="icon">
-                                <li style="color: white">Visit the site</li>
-                            </ul>
-                        </div>
-                     </a>
+                        <a href="{{url('/')}}">
+                            <img src="{{asset('images/tvs.jpg')}}" alt="Image">
+                            <h3>Jagadamba Credits</h3>
+                            <div class="box-content">
+                                <h3 class="title">Jagadamba Credits</h3>
+                                <span class="post">Helping you turn your future dreams into today's realities.</span>
+                                <ul class="icon">
+                                    <li style="color: white">Visit the site</li>
+                                </ul>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -241,143 +240,143 @@
 
 <!-- Start Why Choose Us Area -->
 {{--<div class="content-block-area">--}}
-    {{--<div class="container">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-6 col-md-offset-3">--}}
-                {{--<div class="section-title text-center">--}}
-                    {{--<h2><span>Why choose</span> us</h2>--}}
-                    {{--<div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="boxed-item">--}}
-                    {{--<span class="sirial-number">01</span>--}}
-                    {{--<span class="single-boxed"><i class="flaticon-crane"></i></span>--}}
-                    {{--<h3>Car Inspection</h3>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+{{--<div class="container">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-6 col-md-offset-3">--}}
+{{--<div class="section-title text-center">--}}
+{{--<h2><span>Why choose</span> us</h2>--}}
+{{--<div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>--}}
+{{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row">--}}
+{{--<div class="col-sm-6 col-md-3">--}}
+{{--<div class="boxed-item">--}}
+{{--<span class="sirial-number">01</span>--}}
+{{--<span class="single-boxed"><i class="flaticon-crane"></i></span>--}}
+{{--<h3>Car Inspection</h3>--}}
+{{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
+{{--</div>--}}
+{{--</div>--}}
 
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="boxed-item">--}}
-                    {{--<span class="sirial-number">02</span>--}}
-                    {{--<span class="single-boxed"><i class="flaticon-wheel-1"></i></span>--}}
-                    {{--<h3>Tires Services</h3>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+{{--<div class="col-sm-6 col-md-3">--}}
+{{--<div class="boxed-item">--}}
+{{--<span class="sirial-number">02</span>--}}
+{{--<span class="single-boxed"><i class="flaticon-wheel-1"></i></span>--}}
+{{--<h3>Tires Services</h3>--}}
+{{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
+{{--</div>--}}
+{{--</div>--}}
 
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="boxed-item">--}}
-                    {{--<span class="sirial-number">03</span>--}}
-                    {{--<span class="single-boxed"><i class="flaticon-speedometer"></i></span>--}}
-                    {{--<h3>Schedule Service</h3>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+{{--<div class="col-sm-6 col-md-3">--}}
+{{--<div class="boxed-item">--}}
+{{--<span class="sirial-number">03</span>--}}
+{{--<span class="single-boxed"><i class="flaticon-speedometer"></i></span>--}}
+{{--<h3>Schedule Service</h3>--}}
+{{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
+{{--</div>--}}
+{{--</div>--}}
 
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="boxed-item">--}}
-                    {{--<span class="sirial-number">04</span>--}}
-                    {{--<span class="single-boxed"><i class="flaticon-car-radio"></i></span>--}}
-                    {{--<h3>Radiator Repair</h3>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
+{{--<div class="col-sm-6 col-md-3">--}}
+{{--<div class="boxed-item">--}}
+{{--<span class="sirial-number">04</span>--}}
+{{--<span class="single-boxed"><i class="flaticon-car-radio"></i></span>--}}
+{{--<h3>Radiator Repair</h3>--}}
+{{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 
-        {{--<div class="col-md-12 text-center">--}}
-            {{--<a href="about-us.html" class="btn theme-btn">about us</a>--}}
-        {{--</div>--}}
-    {{--</div>--}}
+{{--<div class="col-md-12 text-center">--}}
+{{--<a href="about-us.html" class="btn theme-btn">about us</a>--}}
+{{--</div>--}}
+{{--</div>--}}
 {{--</div>--}}
 <!-- End Why Choose Us Area -->
 
 <!-- Start Count-Down Area -->
 {{--<div class="count-down-area count-bg jarallax">--}}
-    {{--<div class="container">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="count-down-boxed text-center">--}}
-                    {{--<span class="count-icon"><i class="ion-ios-people-outline"></i> <span class="count-number counter">12,500</span></span>--}}
-                    {{--<h3 class="count-info">Happy Clients</h3>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="count-down-boxed text-center">--}}
-                    {{--<span class="count-icon"><i class="ion-ios-partlysunny-outline"></i> <span class="count-number counter">17,500</span></span>--}}
-                    {{--<h3 class="count-info">Completed Projects</h3>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="count-down-boxed text-center">--}}
-                    {{--<span class="count-icon"><i class="ion-ios-paperplane-outline"></i> <span class="count-number counter">15,500</span></span>--}}
-                    {{--<h3 class="count-info">WINNING AWARD</h3>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="count-down-boxed text-center">--}}
-                    {{--<span class="count-icon"><i class="ion-ios-thunderstorm-outline"></i> <span class="count-number counter">14,500</span></span>--}}
-                    {{--<h3 class="count-info">Hours Worked</h3>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
+{{--<div class="container">--}}
+{{--<div class="row">--}}
+{{--<div class="col-sm-6 col-md-3">--}}
+{{--<div class="count-down-boxed text-center">--}}
+{{--<span class="count-icon"><i class="ion-ios-people-outline"></i> <span class="count-number counter">12,500</span></span>--}}
+{{--<h3 class="count-info">Happy Clients</h3>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="col-sm-6 col-md-3">--}}
+{{--<div class="count-down-boxed text-center">--}}
+{{--<span class="count-icon"><i class="ion-ios-partlysunny-outline"></i> <span class="count-number counter">17,500</span></span>--}}
+{{--<h3 class="count-info">Completed Projects</h3>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="col-sm-6 col-md-3">--}}
+{{--<div class="count-down-boxed text-center">--}}
+{{--<span class="count-icon"><i class="ion-ios-paperplane-outline"></i> <span class="count-number counter">15,500</span></span>--}}
+{{--<h3 class="count-info">WINNING AWARD</h3>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="col-sm-6 col-md-3">--}}
+{{--<div class="count-down-boxed text-center">--}}
+{{--<span class="count-icon"><i class="ion-ios-thunderstorm-outline"></i> <span class="count-number counter">14,500</span></span>--}}
+{{--<h3 class="count-info">Hours Worked</h3>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 {{--</div>--}}
 {{--<!-- End Count-Down Area -->--}}
 
 <!-- Start Auto Body Services Area -->
 {{--<div class="content-block-area">--}}
-    {{--<div class="container-fluid">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-6">--}}
-                {{--<div class="body-service-boxed-item auto-body-bg"></div>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-6">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col-md-12 col-lg-8">--}}
-                        {{--<div class="section-title text-center">--}}
-                            {{--<h2><span>Auto Body</span> services</h2>--}}
-                            {{--<div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>--}}
-                            {{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col-sm-6 col-md-6 col-lg-4">--}}
-                        {{--<div class="services-list">--}}
-                            {{--<ul>--}}
-                                {{--<li>Aluminum Repair</li>--}}
-                                {{--<li>Paintless Dent Repair</li>--}}
-                                {{--<li>Auto Glass Repair</li>--}}
-                                {{--<li>Auto Painting</li>--}}
-                                {{--<li>Windshield Repairs</li>--}}
-                                {{--<li>Auto Paint Repair</li>--}}
-                            {{--</ul>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-sm-6 col-md-6 col-lg-4">--}}
-                        {{--<div class="services-list">--}}
-                            {{--<ul>--}}
-                                {{--<li>Fender Repair</li>--}}
-                                {{--<li>Hail Damage Repair</li>--}}
-                                {{--<li>Towing Service</li>--}}
-                                {{--<li>Wheel Alignment</li>--}}
-                                {{--<li>Wheel Rim Repair</li>--}}
-                                {{--<li>Collision Repair</li>--}}
-                            {{--</ul>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="col-md-8 text-center">--}}
-                    {{--<a href="#" class="btn theme-btn">request appointment</a>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
+{{--<div class="container-fluid">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-6">--}}
+{{--<div class="body-service-boxed-item auto-body-bg"></div>--}}
+{{--</div>--}}
+{{--<div class="col-md-6">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-12 col-lg-8">--}}
+{{--<div class="section-title text-center">--}}
+{{--<h2><span>Auto Body</span> services</h2>--}}
+{{--<div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>--}}
+{{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row">--}}
+{{--<div class="col-sm-6 col-md-6 col-lg-4">--}}
+{{--<div class="services-list">--}}
+{{--<ul>--}}
+{{--<li>Aluminum Repair</li>--}}
+{{--<li>Paintless Dent Repair</li>--}}
+{{--<li>Auto Glass Repair</li>--}}
+{{--<li>Auto Painting</li>--}}
+{{--<li>Windshield Repairs</li>--}}
+{{--<li>Auto Paint Repair</li>--}}
+{{--</ul>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="col-sm-6 col-md-6 col-lg-4">--}}
+{{--<div class="services-list">--}}
+{{--<ul>--}}
+{{--<li>Fender Repair</li>--}}
+{{--<li>Hail Damage Repair</li>--}}
+{{--<li>Towing Service</li>--}}
+{{--<li>Wheel Alignment</li>--}}
+{{--<li>Wheel Rim Repair</li>--}}
+{{--<li>Collision Repair</li>--}}
+{{--</ul>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="col-md-8 text-center">--}}
+{{--<a href="#" class="btn theme-btn">request appointment</a>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 {{--</div>--}}
 <!-- End Auto Body Services Area -->
 
@@ -391,36 +390,16 @@
                     <h2><span>CLIENTS THAT TRUST</span> OUR SERVICES</h2>
                 </div>
                 <div class="testimonials-car-boxed wow fadeInLeft">
-                    <img src="assets/img/testimonial-car.png" alt="Image">
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="testimonial-item">
-                    <div class="testimonial-single-item">
-                        <p>RTR 200 4V is the best bike I have ridden ever. From its pickup to its engine, this bike is superb and I really love to take this bike for a long ride. I have so much good memory with this bike and also the service from TVS is so awesome. They also reply to me on time and also answer my queries with detail information. <b>&nbsp;&nbsp;- TVS Apache RTR 200 owner</b></p>
-                        <ul style="float: right">
-                            <li style="color: black;">Rahul Thapa</li>
-                            <li></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
-                    <div class="quotation-profile">
-                        <img src="assets/img/31m.jpg" alt="Image">
-                    </div>
+                    <img src="{{asset('images/testimonials.jpg')}}" alt="Image">
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4">
                 <div class="testimonial-item">
                     <div class="testimonial-single-item">
-                        <p>I always thought of financing was a risky gamble, but with jagdamba credit i got the credit at the best rate in the market. In addition it’s a very easy, simple & convenient process and I encourage everyone should try it. &nbsp;&nbsp; - Jagadamba Credits </p>
-                        <ul style="float: right; margin-top: 52px;">
-                            <li style="color: black;">Raja Ram Prasad Yadav</li>
-                            <li></li>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to  making it look like readable English.</p>
+                        <ul>
+                            <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
@@ -434,27 +413,27 @@
                 </div>
             </div>
 
-            {{--<div class="col-sm-6 col-md-4">--}}
-                {{--<div class="testimonial-item">--}}
-                    {{--<div class="testimonial-single-item">--}}
-                        {{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to  making it look like readable English.</p>--}}
-                        {{--<ul>--}}
-                            {{--<li style="color: black;">Raja Ram Prasad Yadav</li>--}}
-                            {{--<li></li>--}}
-                            {{--<li></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
+            <div class="col-sm-6 col-md-4">
+                <div class="testimonial-item">
+                    <div class="testimonial-single-item">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to  making it look like readable English.</p>
+                        <ul>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="quotation-profile">
+                        <img src="assets/img/31m.jpg" alt="Image">
+                    </div>
+                </div>
+            </div>
 
-                    {{--<div class="quotation-profile">--}}
-                        {{--<img src="" alt="Image">--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+            <div class="col-sm-12 col-md-8 col-md-offset-4 text-center">
+                <a href="#" class="btn theme-btn">see testimonials</a>
+            </div>
         </div>
     </div>
 </div>
@@ -462,99 +441,100 @@
 
 <!-- Start Appointment Area -->
 {{--<div class="content-block-area">--}}
-    {{--<div class="container">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-6">--}}
-                {{--<div class="apointment-preview-boxed man-image-bg wow fadeInUp"></div>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-6">--}}
-                {{--<div class="section-title text-center">--}}
-                    {{--<h2><span>request an</span> appointment</h2>--}}
-                    {{--<div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. .</p>--}}
-                {{--</div>--}}
-                {{--<form class="appointment-form" action="index.html">--}}
-                    {{--<div class="row">--}}
-                        {{--<div class="col-md-6">--}}
-                            {{--<label>Vehicle Information</label>--}}
-                            {{--<select id="Year">--}}
-                                {{--<option value="hide">-- Year, Model --</option>--}}
-                                {{--<option value="2010">2010</option>--}}
-                                {{--<option value="2011">2011</option>--}}
-                                {{--<option value="2012">2012</option>--}}
-                                {{--<option value="2013">2013</option>--}}
-                                {{--<option value="2014">2014</option>--}}
-                                {{--<option value="2015">2015</option>--}}
-                                {{--<option value="2016">2016</option>--}}
-                                {{--<option value="2017">2017</option>--}}
-                            {{--</select>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6">--}}
-                            {{--<label>Select Services</label>--}}
-                            {{--<select id="selectServices">--}}
-                                {{--<option value="hide">-- Select Service --</option>--}}
-                                {{--<option value="1">Aluminum Repair</option>--}}
-                                {{--<option value="2">Fender Repair</option>--}}
-                                {{--<option value="3">Auto Painting</option>--}}
-                                {{--<option value="4">Oil Change</option>--}}
-                                {{--<option value="4">Collision Repair</option>--}}
-                                {{--<option value="4">Break Repair</option>--}}
-                            {{--</select>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="row">--}}
-                        {{--<div class="col-md-6">--}}
-                            {{--<label>Appointment Date</label>--}}
-                            {{--<input type="text" id="datepicker" name="appointmentDate" placeholder="Appointment Date" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6">--}}
-                            {{--<label>Appointment Time</label>--}}
-                            {{--<select id="Time">--}}
-                                {{--<option value="hide">-- Choose --</option>--}}
-                                {{--<option value="2010">09:00AM - 10:00AM</option>--}}
-                                {{--<option value="2011">10:00AM - 11:00AM</option>--}}
-                                {{--<option value="2012">11:00AM - 12:00PM</option>--}}
-                                {{--<option value="2013">12:00PM - 01:00PM</option>--}}
-                                {{--<option value="2014">01:00PM - 02:00PM</option>--}}
-                                {{--<option value="2015">02:00PM - 03:00PM</option>--}}
-                                {{--<option value="2015">03:00PM - 04:00PM</option>--}}
-                                {{--<option value="2015">04:00PM - 05:00PM</option>--}}
-                                {{--<option value="2015">05:00PM - 06:00PM</option>--}}
-                                {{--<option value="2015">06:00PM - 07:00PM</option>--}}
-                                {{--<option value="2015">07:00PM - 08:00PM</option>--}}
-                                {{--<option value="2015">08:00PM - 09:00PM</option>--}}
-                            {{--</select>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="row">--}}
-                        {{--<div class="col-md-12">--}}
-                            {{--<p>Contact Details</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6">--}}
-                            {{--<input type="text" name="yourName" placeholder="Your Name" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6">--}}
-                            {{--<input type="email" name="yourEmail" placeholder="Your Email" required>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="row">--}}
-                        {{--<div class="col-md-12">--}}
-                            {{--<input type="text" name="yourPhone" placeholder="Your Phone" required>--}}
-                    {{--</div>--}}
-                    {{--<div class="row">--}}
-                        {{--<div class="col-md-12">--}}
-                            {{--<textarea name="yourMessage" id="yourMessage" placeholder="Your Message" required></textarea>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="row">--}}
-                        {{--<div class="col-md-12 text-center">--}}
-                            {{--<button class="btn theme-btn" type="submit">Submit Now</button>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</form>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
+{{--<div class="container">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-6">--}}
+{{--<div class="apointment-preview-boxed man-image-bg wow fadeInUp"></div>--}}
+{{--</div>--}}
+{{--<div class="col-md-6">--}}
+{{--<div class="section-title text-center">--}}
+{{--<h2><span>request an</span> appointment</h2>--}}
+{{--<div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>--}}
+{{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. .</p>--}}
+{{--</div>--}}
+{{--<form class="appointment-form" action="index.html">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-6">--}}
+{{--<label>Vehicle Information</label>--}}
+{{--<select id="Year">--}}
+{{--<option value="hide">-- Year, Model --</option>--}}
+{{--<option value="2010">2010</option>--}}
+{{--<option value="2011">2011</option>--}}
+{{--<option value="2012">2012</option>--}}
+{{--<option value="2013">2013</option>--}}
+{{--<option value="2014">2014</option>--}}
+{{--<option value="2015">2015</option>--}}
+{{--<option value="2016">2016</option>--}}
+{{--<option value="2017">2017</option>--}}
+{{--</select>--}}
+{{--</div>--}}
+{{--<div class="col-md-6">--}}
+{{--<label>Select Services</label>--}}
+{{--<select id="selectServices">--}}
+{{--<option value="hide">-- Select Service --</option>--}}
+{{--<option value="1">Aluminum Repair</option>--}}
+{{--<option value="2">Fender Repair</option>--}}
+{{--<option value="3">Auto Painting</option>--}}
+{{--<option value="4">Oil Change</option>--}}
+{{--<option value="4">Collision Repair</option>--}}
+{{--<option value="4">Break Repair</option>--}}
+{{--</select>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-6">--}}
+{{--<label>Appointment Date</label>--}}
+{{--<input type="text" id="datepicker" name="appointmentDate" placeholder="Appointment Date" required>--}}
+{{--</div>--}}
+{{--<div class="col-md-6">--}}
+{{--<label>Appointment Time</label>--}}
+{{--<select id="Time">--}}
+{{--<option value="hide">-- Choose --</option>--}}
+{{--<option value="2010">09:00AM - 10:00AM</option>--}}
+{{--<option value="2011">10:00AM - 11:00AM</option>--}}
+{{--<option value="2012">11:00AM - 12:00PM</option>--}}
+{{--<option value="2013">12:00PM - 01:00PM</option>--}}
+{{--<option value="2014">01:00PM - 02:00PM</option>--}}
+{{--<option value="2015">02:00PM - 03:00PM</option>--}}
+{{--<option value="2015">03:00PM - 04:00PM</option>--}}
+{{--<option value="2015">04:00PM - 05:00PM</option>--}}
+{{--<option value="2015">05:00PM - 06:00PM</option>--}}
+{{--<option value="2015">06:00PM - 07:00PM</option>--}}
+{{--<option value="2015">07:00PM - 08:00PM</option>--}}
+{{--<option value="2015">08:00PM - 09:00PM</option>--}}
+{{--</select>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-12">--}}
+{{--<p>Contact Details</p>--}}
+{{--</div>--}}
+{{--<div class="col-md-6">--}}
+{{--<input type="text" name="yourName" placeholder="Your Name" required>--}}
+{{--</div>--}}
+{{--<div class="col-md-6">--}}
+{{--<input type="email" name="yourEmail" placeholder="Your Email" required>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-12">--}}
+{{--<input type="text" name="yourPhone" placeholder="Your Phone" required>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-12">--}}
+{{--<textarea name="yourMessage" id="yourMessage" placeholder="Your Message" required></textarea>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-12 text-center">--}}
+{{--<button class="btn theme-btn" type="submit">Submit Now</button>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</form>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 {{--</div>--}}
 <!-- End Appointment Area -->
 
@@ -698,21 +678,21 @@
     <div class="footer-top-area">
         <div class="container">
             {{--<div class="row">--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="footer-top-info">--}}
-                        {{--<span class="footer-icons"><i class="fa fa-map-o"></i></span> <p>1828 Johns Drive Glenview, IL 60025</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="footer-top-info">--}}
-                        {{--<span class="footer-icons"><i class="flaticon-crane"></i></span> <p>Working Days Monday to Friday</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="footer-top-info">--}}
-                        {{--<span class="footer-icons"><i class="fa fa-headphones"></i></span> <p>Give us a free call (224) 228-8475</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+            {{--<div class="col-sm-4">--}}
+            {{--<div class="footer-top-info">--}}
+            {{--<span class="footer-icons"><i class="fa fa-map-o"></i></span> <p>1828 Johns Drive Glenview, IL 60025</p>--}}
+            {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-sm-4">--}}
+            {{--<div class="footer-top-info">--}}
+            {{--<span class="footer-icons"><i class="flaticon-crane"></i></span> <p>Working Days Monday to Friday</p>--}}
+            {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-sm-4">--}}
+            {{--<div class="footer-top-info">--}}
+            {{--<span class="footer-icons"><i class="fa fa-headphones"></i></span> <p>Give us a free call (224) 228-8475</p>--}}
+            {{--</div>--}}
+            {{--</div>--}}
             {{--</div>--}}
             <div class="hr-line"></div>
             <div class="row" id="contact">

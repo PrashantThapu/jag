@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/tvs', function () {
+    return view('tvs.welcome');
+});
+Route::get('/case', function () {
+    return view('case.welcome');
+});
+Route::get('/jagcredits', function () {
+    return view('jagcredits.welcome');
+});
+
