@@ -418,7 +418,7 @@
                 <div class="testimonial-item">
                     <div class="testimonial-single-item">
                         <p>I always thought of financing was a risky gamble, but with jagdamba credit i got the credit at the best rate in the market. In addition it’s a very easy, simple & convenient process and I encourage everyone should try it. &nbsp;&nbsp; - Jagadamba Credits </p>
-                        <ul style="float: right; margin-top: 52px;">
+                        <ul style="float: right; margin-top: 52px">
                             <li style="color: black;">Raja Ram Prasad Yadav</li>
                             <li></li>
                             <li><i class="fa fa-star"></i></li>
