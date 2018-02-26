@@ -29,7 +29,8 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-battery:before { content: "\f100"; }
+    .flaticon-car:before { content: "\e002"; }
+    .flaticon-battery:before { content: "\f100"; }
 .flaticon-breaks:before { content: "\f101"; }
 .flaticon-car:before { content: "\f102"; }
 .flaticon-car-door:before { content: "\f103"; }

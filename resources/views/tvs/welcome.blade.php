@@ -169,8 +169,8 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <div class="section-title text-center">
-                    <h2><span>Our featured</span> GROUP OF COMPANIES</h2>
-                    <div class="car-icon">Jagadamba Group of Services&nbsp;&nbsp;&nbsp;<img src="assets/img/cars.png" alt="car"></div>
+                    <h2><span>Our featured</span> SERVICES</h2>
+                    <div class="car-icon"></div>
                 </div>
             </div>
         </div>
@@ -184,7 +184,7 @@
                 <div class="services-item">
                     <div class="box">
                         <a href="{{url('/')}}">
-                            <img src="{{asset('images/tvs.jpg')}}" alt="Image">
+                            <img src="{{asset('images/twowheel.jpg')}}" alt="Image">
                             <h3>TVS</h3>
                             <div class="box-content">
                                 <h3 class="title">TVS</h3>
@@ -202,12 +202,11 @@
                 <div class="services-item">
                     <div class="box">
                         <a href="{{url('/')}}">
-
-                            <img src="{{asset('images/case.jpg')}}" alt="Image">
-                            <h3>CASE</h3>
+                            <img src="{{asset('images/twowheel.jpg')}}" alt="Image">
+                            <h3>TVS</h3>
                             <div class="box-content">
-                                <h3 class="title">CASE</h3>
-                                <span class="post"></span>
+                                <h3 class="title">TVS</h3>
+                                <span class="post">Top leading Motor-cycle brand in Nepal.</span>
                                 <ul class="icon">
                                     <li style="color: white">Visit the site</li>
                                 </ul>
@@ -215,16 +214,15 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
+            </div> <div class="col-md-4">
                 <div class="services-item">
                     <div class="box">
                         <a href="{{url('/')}}">
-                            <img src="{{asset('images/tvs.jpg')}}" alt="Image">
-                            <h3>Jagadamba Credits</h3>
+                            <img src="{{asset('images/twowheel.jpg')}}" alt="Image">
+                            <h3>TVS</h3>
                             <div class="box-content">
-                                <h3 class="title">Jagadamba Credits</h3>
-                                <span class="post">Helping you turn your future dreams into today's realities.</span>
+                                <h3 class="title">TVS</h3>
+                                <span class="post">Top leading Motor-cycle brand in Nepal.</span>
                                 <ul class="icon">
                                     <li style="color: white">Visit the site</li>
                                 </ul>
@@ -237,6 +235,101 @@
     </div>
 </div>
 <!-- End Services Area -->
+
+<div class="content-block-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h2><span>request an</span> appointment</h2>
+                    <div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. .</p>
+                </div>
+                <form class="appointment-form" action="index.html">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Vehicle Information</label>
+                            <select name="year" id="Year">
+                                <option value="hide">-- Year, Model --</option>
+                                <option value="2010">2010</option>
+                                <option value="2011">2011</option>
+                                <option value="2012">2012</option>
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Select Services</label>
+                            <select name="selectServices" id="selectServices">
+                                {{--<option value="hide">-- Select Service --</option>--}}
+                                {{--<option value="1">Aluminum Repair</option>--}}
+                                {{--<option value="2">Fender Repair</option>--}}
+                                {{--<option value="3">Auto Painting</option>--}}
+                                {{--<option value="4">Oil Change</option>--}}
+                                {{--<option value="4">Collision Repair</option>--}}
+                                {{--<option value="4">Break Repair</option>--}}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Appointment Date</label>
+                            <input type="text" id="datepicker" name="appointmentDate" placeholder="Appointment Date" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Appointment Time</label>
+                            <select name="time" id="Time">
+                                <option value="hide">-- Choose --</option>
+                                <option value="2010">09:00AM - 10:00AM</option>
+                                <option value="2011">10:00AM - 11:00AM</option>
+                                <option value="2012">11:00AM - 12:00PM</option>
+                                <option value="2013">12:00PM - 01:00PM</option>
+                                <option value="2014">01:00PM - 02:00PM</option>
+                                <option value="2015">02:00PM - 03:00PM</option>
+                                <option value="2015">03:00PM - 04:00PM</option>
+                                <option value="2015">04:00PM - 05:00PM</option>
+                                <option value="2015">05:00PM - 06:00PM</option>
+                                <option value="2015">06:00PM - 07:00PM</option>
+                                <option value="2015">07:00PM - 08:00PM</option>
+                                <option value="2015">08:00PM - 09:00PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Contact Details</p>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="yourName" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" name="yourEmail" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" name="yourPhone" placeholder="Your Phone" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <textarea name="yourMessage" id="yourMessage" placeholder="Your Message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <button class="btn theme-btn" type="submit">Submit Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Appointment Area -->
 
 <!-- Start Why Choose Us Area -->
 {{--<div class="content-block-area">--}}
@@ -384,7 +477,7 @@
 <div class="content-block-area gray-bg" id="testimonials">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-6">
                 <div class="section-title text-right">
                     <h3>our clients</h3>
                     <h2><span>CLIENTS THAT TRUST</span> OUR SERVICES</h2>
@@ -394,30 +487,13 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-6">
                 <div class="testimonial-item">
                     <div class="testimonial-single-item">
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to  making it look like readable English.</p>
-                        <ul>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
-
-                    <div class="quotation-profile">
-                        <img src="" alt="Image">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="testimonial-item">
-                    <div class="testimonial-single-item">
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to  making it look like readable English.</p>
-                        <ul>
+                        <p>RTR 200 4V is the best bike I have ridden ever. From its pickup to its engine, this bike is superb and I really love to take this bike for a long ride. I have so much good memory with this bike and also the service from TVS is so awesome. They also reply to me on time and also answer my queries with detail information. <b>&nbsp;&nbsp;- TVS Apache RTR 200 owner</b></p>
+                        <ul style="float: right">
+                            <li style="color: black;">Rahul Thapa</li>
+                            <li></li>
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
@@ -426,14 +502,11 @@
                         </ul>
                     </div>
                     <div class="quotation-profile">
-                        <img src="assets/img/31m.jpg" alt="Image">
+                        <img src="{{asset('images/biker.jpg')}}" alt="Image">
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-8 col-md-offset-4 text-center">
-                <a href="#" class="btn theme-btn">see testimonials</a>
-            </div>
         </div>
     </div>
 </div>
@@ -650,22 +723,22 @@
         </div>
         <div class="partner-slides">
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-1.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/tvstvs.jpg')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-2.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/tvstvs.jpg')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-3.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/tvstvs.jpg')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-4.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/tvstvs.jpg')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-5.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/tvstvs.jpg')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-6.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/tvstvs.jpg')}}" alt="Image Description"></a>
             </div>
         </div>
     </div>
@@ -698,9 +771,8 @@
             <div class="row" id="contact">
                 <div class="col-md-4 col-sm-12">
                     <div class="footer-wid">
-                        <a href="index.html" class="footer-logo"><img src="{{asset('assets/img/jagadambalogo.png')}}" alt="logo"></a>
-                        <p>"Jagadamba Motors is .. "</p>
-                        {{--<a href="#" class="link-color">Read More About Us <i class="fa  fa-long-arrow-right"></i></a>--}}
+                        <a href="{{url('/')}}" class="footer-logo"><img src="{{asset('assets/img/tvslogo.png')}}" alt="logo"></a>
+                        <p>"Top leading Motor-cycle brand in Nepal"</p>
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-12">

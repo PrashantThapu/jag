@@ -240,62 +240,66 @@
 <!-- End Services Area -->
 
 <!-- Start Why Choose Us Area -->
-{{--<div class="content-block-area">--}}
-    {{--<div class="container">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-6 col-md-offset-3">--}}
-                {{--<div class="section-title text-center">--}}
-                    {{--<h2><span>Why choose</span> us</h2>--}}
-                    {{--<div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="boxed-item">--}}
-                    {{--<span class="sirial-number">01</span>--}}
-                    {{--<span class="single-boxed"><i class="flaticon-crane"></i></span>--}}
-                    {{--<h3>Car Inspection</h3>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+<div class="content-block-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="section-title text-center">
+                    <h2><span>Why choose</span> us</h2>
+                    <p>We have always been at the forefront of bringing new and relevant technology. We stay ahead of the curve when it comes to meeting customer expectations.</p>                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="boxed-item">
+                    <span class="sirial-number">01</span>
+                    <span class="single-boxed"><i class="flaticon-crane"></i></span>
+                    <h3>TVS</h3>
+                </div>
+            </div>
 
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="boxed-item">--}}
-                    {{--<span class="sirial-number">02</span>--}}
-                    {{--<span class="single-boxed"><i class="flaticon-wheel-1"></i></span>--}}
-                    {{--<h3>Tires Services</h3>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+            <div class="col-sm-6 col-md-4">
+                <div class="boxed-item">
+                    <span class="sirial-number">02</span>
+                    <span class="single-boxed"><i class="flaticon-wheel-1"></i></span>
+                    <h3>CASE</h3>
+                </div>
+            </div>
 
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="boxed-item">--}}
-                    {{--<span class="sirial-number">03</span>--}}
-                    {{--<span class="single-boxed"><i class="flaticon-speedometer"></i></span>--}}
-                    {{--<h3>Schedule Service</h3>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+            <div class="col-sm-6 col-md-4">
+                <div class="boxed-item">
+                    <span class="sirial-number">03</span>
+                    <span class="single-boxed"><i class="flaticon-speedometer"></i></span>
+                    <h3>Jagadamba Credits</h3>
+                </div>
+            </div>
+        </div>
 
-            {{--<div class="col-sm-6 col-md-3">--}}
-                {{--<div class="boxed-item">--}}
-                    {{--<span class="sirial-number">04</span>--}}
-                    {{--<span class="single-boxed"><i class="flaticon-car-radio"></i></span>--}}
-                    {{--<h3>Radiator Repair</h3>--}}
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content.</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
 
-        {{--<div class="col-md-12 text-center">--}}
-            {{--<a href="about-us.html" class="btn theme-btn">about us</a>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</div>--}}
+    </div>
+</div>
 <!-- End Why Choose Us Area -->
 
+<div class="content-block-area gray-bg">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="banner-man-boxed banner-man-bg"></div>
+            </div>
+            <div class="col-md-7">
+                <div class="banner-boxed">
+                    <h2>About <span>Us</span></h2>
+                    <p></p>
+                <p>Our belief is to create sustainable companies for the future by focusing on collaboration of our group at a global level, while we continue to innovate and create new niches for the Nepalese market.
+</p>
+                    <p> We are committed to being a highly profitable, socially responsible, and leading manufacturer of high value for money, environmentally friendly, lifetime personal transportation products under the TVS brand, for customers predominantly in Asian markets and to provide fulfillment and prosperity for employees, dealers, and suppliers.
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Start Count-Down Area -->
 {{--<div class="count-down-area count-bg jarallax">--}}
     {{--<div class="container">--}}
@@ -391,12 +395,12 @@
                     <h2><span>CLIENTS THAT TRUST</span> OUR SERVICES</h2>
                 </div>
                 <div class="testimonials-car-boxed wow fadeInLeft">
-                    <img src="assets/img/testimonial-car.png" alt="Image">
+                    <img src="{{asset('images/testimonials.jpg')}}" alt="Image">
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="testimonial-item">
-                    <div class="testimonial-single-item">
+                    <div class="testimonial-single-item" style="height: 350px;">
                         <p>RTR 200 4V is the best bike I have ridden ever. From its pickup to its engine, this bike is superb and I really love to take this bike for a long ride. I have so much good memory with this bike and also the service from TVS is so awesome. They also reply to me on time and also answer my queries with detail information. <b>&nbsp;&nbsp;- TVS Apache RTR 200 owner</b></p>
                         <ul style="float: right">
                             <li style="color: black;">Rahul Thapa</li>
@@ -409,15 +413,15 @@
                         </ul>
                     </div>
                     <div class="quotation-profile">
-                        <img src="assets/img/31m.jpg" alt="Image">
+                        <img src="{{asset('images/biker.jpg')}}" alt="Image">
                     </div>
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4">
                 <div class="testimonial-item">
-                    <div class="testimonial-single-item">
-                        <p>I always thought of financing was a risky gamble, but with jagdamba credit i got the credit at the best rate in the market. In addition it’s a very easy, simple & convenient process and I encourage everyone should try it. &nbsp;&nbsp; - Jagadamba Credits </p>
+                    <div class="testimonial-single-item" style="height: 350px;">
+                        <p>I always thought of financing was a risky gamble, but with jagdamba credit i got the credit at the best rate in the market. In addition it’s a very easy, simple & convenient process and I encourage everyone should try it. &nbsp;&nbsp; - <b>Jagadamba Credits</b> </p>
                         <ul style="float: right; margin-top: 52px">
                             <li style="color: black;">Raja Ram Prasad Yadav</li>
                             <li></li>
@@ -429,32 +433,10 @@
                     </div>
 
                     <div class="quotation-profile">
-                        <img src="" alt="Image">
+                        <img src="{{asset('images/biker.jpg')}}" alt="Image">
                     </div>
                 </div>
             </div>
-
-            {{--<div class="col-sm-6 col-md-4">--}}
-                {{--<div class="testimonial-item">--}}
-                    {{--<div class="testimonial-single-item">--}}
-                        {{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to  making it look like readable English.</p>--}}
-                        {{--<ul>--}}
-                            {{--<li style="color: black;">Raja Ram Prasad Yadav</li>--}}
-                            {{--<li></li>--}}
-                            {{--<li></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                            {{--<li><i class="fa fa-star"></i></li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="quotation-profile">--}}
-                        {{--<img src="" alt="Image">--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
         </div>
     </div>
 </div>
@@ -566,8 +548,7 @@
                 <div class="section-title text-center">
                     <h2><span>recent</span> news</h2>
                     <div class="car-icon"><img src="assets/img/cars.png" alt="car"></div>
-                    {{--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>--}}
-                </div>
+                    </div>
             </div>
         </div>
         <div class="row">
@@ -579,7 +560,6 @@
                         <a class="blog-tags red" href="#"><i class="fa fa-tag"></i> TVS</a>
                         <a href="#"><h3>News Title</h3></a>
                         <p>...</p>
-                        {{--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>--}}
 
                         <div class="row">
                             <div class="col-xs-7">
@@ -606,7 +586,6 @@
                         <a class="blog-tags green" href="#"><i class="fa fa-tag"></i> CASE</a>
                         <a href="#"><h3>News Title</h3></a>
                         <p>...</p>
-                        {{--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>--}}
 
                         <div class="row">
                             <div class="col-xs-7">
@@ -633,7 +612,6 @@
                         <a class="blog-tags blue" href="#"><i class="fa fa-tag"></i> Jagadamba Motors</a>
                         <a href="#"><h3>News Title</h3></a>
                         <p>...</p>
-                        {{--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>--}}
 
                         <div class="row">
                             <div class="col-xs-7">
@@ -670,22 +648,22 @@
         </div>
         <div class="partner-slides">
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-1.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/jag.png')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-2.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/jag.png')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-3.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/jag.png')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-4.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/jag.png')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-5.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/jag.png')}}" alt="Image Description"></a>
             </div>
             <div class="single-partner-slide">
-                <a class="partners-logo" href="#"><img src="assets/img/partner-6.png" alt="Image Description"></a>
+                <a class="partners-logo" href="#"><img src="{{asset('images/jag.png')}}" alt="Image Description"></a>
             </div>
         </div>
     </div>
@@ -697,30 +675,12 @@
     <!-- Footer Top Area -->
     <div class="footer-top-area">
         <div class="container">
-            {{--<div class="row">--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="footer-top-info">--}}
-                        {{--<span class="footer-icons"><i class="fa fa-map-o"></i></span> <p>1828 Johns Drive Glenview, IL 60025</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="footer-top-info">--}}
-                        {{--<span class="footer-icons"><i class="flaticon-crane"></i></span> <p>Working Days Monday to Friday</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="footer-top-info">--}}
-                        {{--<span class="footer-icons"><i class="fa fa-headphones"></i></span> <p>Give us a free call (224) 228-8475</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
             <div class="hr-line"></div>
             <div class="row" id="contact">
                 <div class="col-md-4 col-sm-12">
                     <div class="footer-wid">
                         <a href="index.html" class="footer-logo"><img src="{{asset('assets/img/jagadambalogo.png')}}" alt="logo"></a>
                         <p>"Jagadamba Motors is .. "</p>
-                        {{--<a href="#" class="link-color">Read More About Us <i class="fa  fa-long-arrow-right"></i></a>--}}
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-12">
