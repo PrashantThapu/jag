@@ -410,6 +410,7 @@
     .main-menu-area .navbar-default .navbar-toggle:focus, 
     .main-menu-area .navbar-default .navbar-toggle:hover {
         background-color: #000;
+        margin-top: 5px;
     }
     .main-menu-area .navbar-default .navbar-header {
         float: none;
@@ -515,4 +516,6 @@
     .signin-form {
         padding: 55px 0;
     }
+
+
 }

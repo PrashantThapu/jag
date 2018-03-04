@@ -97,7 +97,7 @@
 <!-- End SearchBox Modal -->
 
 <!-- Start Homepage Slider -->
-<div class="homepage-slides-wrapper">
+<div class="homepage-slides-wrapper hidden-xs">
     <!-- Slider main container -->
     <div class="swiper-container swiper1">
         <!-- Additional required wrapper -->
@@ -108,11 +108,11 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6 col-md-offset-6">
+                                {{--<div class="col-md-6 col-md-offset-6">--}}
                                     {{--<h1>With over 25 years of experience in auto services work</h1>--}}
                                     {{--<p>Value is a service of trust. The trust your customers have in you. The trust you have in your people, strategies and systems. And always delivering on expectation.</p>--}}
                                     {{--<a class="btn theme-btn" href="appointment.html">make an appointment</a>--}}
-                                </div>
+                                {{--</div>--}}
                             </div>
                         </div>
                     </div>
@@ -124,32 +124,28 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6 col-md-offset-6">
-                                    {{--<h1>With over 25 years of experience in auto services work</h1>--}}
-                                    {{--<p>Value is a service of trust. The trust your customers have in you. The trust you have in your people, strategies and systems. And always delivering on expectation.</p>--}}
-                                    {{--<a class="btn theme-btn" href="appointment.html">make an appointment</a>--}}
-                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="swiper-slide slide-bg-6">
-                <div class="d-table">
-                    <div class="d-table-cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6 col-md-offset-6">
+            {{--<div class="swiper-slide slide-bg-6">--}}
+                {{--<div class="d-table">--}}
+                    {{--<div class="d-table-cell">--}}
+                        {{--<div class="container">--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-md-6 col-md-offset-6">--}}
                                     {{--<h1>With over 25 years of experience in auto services work</h1>--}}
                                     {{--<p>Value is a service of trust. The trust your customers have in you. The trust you have in your people, strategies and systems. And always delivering on expectation.</p>--}}
                                     {{--<a class="btn theme-btn" href="appointment.html">make an appointment</a>--}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination swiper-pagination1"></div>
@@ -161,6 +157,42 @@
     </div>
 </div>
 <!-- End Homepage Slider -->
+<div class="container visible-xs">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="{{asset('images/apa.jpg')}}" >
+            </div>
+
+            <div class="item">
+                <img src="{{asset('images/jup.jpg')}}">
+            </div>
+
+            {{--<div class="item">--}}
+                {{--<img src="{{asset('images/slider3.jpg')}}" >--}}
+            {{--</div>--}}
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
 
 
 <!-- Start Services Area -->
