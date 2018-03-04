@@ -878,28 +878,30 @@ img {
 	Default Slider CSS 
 	======================= */
 .slide-bg-1 {
-    background-image:url("../../images/slider1.jpg");
+    background-image:url("../../images/apa.jpg");
 }
 .slide-bg-2 {
-    background-image:url("../../images/slider2.jpg");
+    background-image:url("../../images/jup.jpg");
 }
 .slide-bg-3 {
-    background-image:url("../../images/slider3.jpg");
+    background-image:url("../../images/slider1.jpg");
 }
 .slide-bg-4 {
-    background-image:url("../../images/slider4.jpg");
-}.slide-bg-5 {
-     background-image:url("../../images/slider5.jpg");
+    background-image:url("../../images/apa.jpg");
+}
+
+.slide-bg-5 {
+    background-image:url("../../images/jup.jpg");
  }.slide-bg-6 {
-      background-image:url("../../images/slider6.jpg");
+      background-image:url("../../images/slider1.jpg");
   }
-.slide-bg-7 {
-    background-image:url("../../images/slider6.jpg");
-}.slide-bg-8 {
-     background-image:url("../../images/slider6.jpg");
- }.slide-bg-9 {
-      background-image:url("../../images/slider6.jpg");
-  }
+/*.slide-bg-7 {*/
+    /*background-image:url("../../images/slider6.jpg");*/
+/*}.slide-bg-8 {*/
+     /*background-image:url("../../images/slider6.jpg");*/
+ /*}.slide-bg-9 {*/
+      /*background-image:url("../../images/slider6.jpg");*/
+  /*}*/
 .swiper-slide {
     /*height: 720px;*/
     height: 720px;
@@ -3301,9 +3303,9 @@ li.parsley-required, #contact_send_status {
     background: #e14a39;
    color: #fff;
 }
-@media only screen and (max-width: 991px) {
-.swiper-slide{
-    display: inline-block;
-    /*width: 400px !important;*/
+@media only screen and (max-width: 767px) {
+    .carousel-inner{
+        margin-top: 95px;
+    }
 }
-}
+
