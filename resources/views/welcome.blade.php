@@ -636,10 +636,10 @@
 
             <div class="col-sm-4">
                 <div class="single-blog-item">
-                    <a href="#" class="zoomin"><img src="{{asset('images/tvsnews.jpg')}}" alt="Image Description"></a>
+                    <a href="#" class="zoomin"><img src="{{asset('images/jagadamba.png  ')}}" alt="Image Description"></a>
                     <div class="blog-item-info">
                         <span class="blog-date">Date</span> <div class="separator">|</div>
-                        <a class="blog-tags blue" href="#"><i class="fa fa-tag"></i> Jagadamba Motors</a>
+                        <a class="blog-tags blue" href="#"><i class="fa fa-tag"></i> Jagadamba Credit</a>
                         <a href="#"><h3>News Title</h3></a>
                         <p>Jagadamba Motors, the authorized sole distributor of TVS bikes in Nepal, has launched the new TVS Jupiter classic edition in Nepal. The scooter was launched in TVS Everest Premier League(EPL) finale where TVS was the title sponsor of the event. Jagadamba Motors, the authorized dealer of TVS motorcycles...</p>
 
