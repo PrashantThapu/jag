@@ -273,7 +273,8 @@
         </div>
         <div class="row">
             <div class="col-sm-6 col-md-4">
-                <div class="boxed-item">
+                <div class="boxed-item" style="background-image:url('../images/tvsbg.png');box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+">
                     <span class="sirial-number">01</span>
                     <span class="single-boxed"><i class="flaticon-crane"></i></span>
                     <h3>TVS</h3>
@@ -281,7 +282,8 @@
             </div>
 
             <div class="col-sm-6 col-md-4">
-                <div class="boxed-item">
+                <div class="boxed-item" style="background-image:url('../images/casebg.png');box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+">
                     <span class="sirial-number">02</span>
                     <span class="single-boxed"><i class="flaticon-wheel-1"></i></span>
                     <h3>CASE</h3>
@@ -289,7 +291,8 @@
             </div>
 
             <div class="col-sm-6 col-md-4">
-                <div class="boxed-item">
+                <div class="boxed-item"style="background-image:url('../images/creditbg.png');box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+">
                     <span class="sirial-number">03</span>
                     <span class="single-boxed"><i class="flaticon-speedometer"></i></span>
                     <h3>Jagadamba Credits</h3>
@@ -308,7 +311,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="banner-man-boxed banner-man-bg">
-                    <img src="{{asset('images/slider2.jpg')}}" alt="Image Description">
+                    <img src="{{asset('images/corporate.png')}}" alt="Image Description">
                 </div>
             </div>
             <div class="col-md-7">
@@ -319,9 +322,9 @@
 </p>
                     <p> We are committed to being a highly profitable, socially responsible, and leading manufacturer of high value for money, environmentally friendly, lifetime personal transportation products under the TVS brand, for customers predominantly in Asian markets and to provide fulfillment and prosperity for employees, dealers, and suppliers.
 </p>
-                    <div class="signature">
-                        <img src="{{asset('images/tvslogo.png')}}" alt="Image Description">
-                    </div>
+                    {{--<div class="signature">--}}
+{{--                        <img src="{{asset('images/tvslogo.png')}}" alt="Image Description">--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
