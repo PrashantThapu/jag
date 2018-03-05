@@ -273,7 +273,8 @@
         </div>
         <div class="row">
             <div class="col-sm-6 col-md-4">
-                <div class="boxed-item">
+                <div class="boxed-item" style="background-image:url('../images/tvsbg.png');box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+">
                     <span class="sirial-number">01</span>
                     <span class="single-boxed"><i class="flaticon-crane"></i></span>
                     <h3>TVS</h3>
@@ -281,7 +282,8 @@
             </div>
 
             <div class="col-sm-6 col-md-4">
-                <div class="boxed-item">
+                <div class="boxed-item" style="background-image:url('../images/casebg.png');box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+">
                     <span class="sirial-number">02</span>
                     <span class="single-boxed"><i class="flaticon-wheel-1"></i></span>
                     <h3>CASE</h3>
@@ -289,7 +291,8 @@
             </div>
 
             <div class="col-sm-6 col-md-4">
-                <div class="boxed-item">
+                <div class="boxed-item"style="background-image:url('../images/creditbg.png');box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+">
                     <span class="sirial-number">03</span>
                     <span class="single-boxed"><i class="flaticon-speedometer"></i></span>
                     <h3>Jagadamba Credits</h3>
@@ -308,7 +311,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="banner-man-boxed banner-man-bg">
-                    <img src="{{asset('images/slider2.jpg')}}" alt="Image Description">
+                    <img src="{{asset('images/corporate.png')}}" alt="Image Description">
                 </div>
             </div>
             <div class="col-md-7">
@@ -319,9 +322,9 @@
 </p>
                     <p> We are committed to being a highly profitable, socially responsible, and leading manufacturer of high value for money, environmentally friendly, lifetime personal transportation products under the TVS brand, for customers predominantly in Asian markets and to provide fulfillment and prosperity for employees, dealers, and suppliers.
 </p>
-                    <div class="signature">
-                        <img src="{{asset('images/tvslogo.png')}}" alt="Image Description">
-                    </div>
+                    {{--<div class="signature">--}}
+{{--                        <img src="{{asset('images/tvslogo.png')}}" alt="Image Description">--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
@@ -586,12 +589,12 @@
                         <span class="blog-date">Date</span> <div class="separator">|</div>
                         <a class="blog-tags red" href="#"><i class="fa fa-tag"></i> TVS</a>
                         <a href="#"><h3>News Title</h3></a>
-                        <p>...</p>
+                        <p>नेपालमा टिभिएस स्कूटर र मोटरसाइकलको आधिकारिक वितरक जगदम्बा मोटर्सले टिभिएसको जुपिटर क्लासिक पोखराको सभा गृहमा र चितवनको भरतपुर ओरालोबाट सार्वजनिक गरेको छ। चालकलाई आनन्ददायी यात्राको अनुभूति र उच्चगति प्रदान गर्ने यो जुपिटर सडकमा समेत निकै आर्कषक देखिने कम्पनीको भनाइ छ।ेपालमा टिभिएस स्कूटर र मोटरसाइकलको....</p>
 
                         <div class="row">
                             <div class="col-xs-7">
                                 <div class="blog-item-profile">
-                                    <img src="assets/img/testimonials-1.jpg" alt="Image description"> <a href="#">author</a>
+                                    <img src="{{asset('images/testimonials.jpg')}}" alt="Image description"> <a href="#">author</a>
                                 </div>
                             </div>
                             <div class="col-xs-5 text-right">
@@ -612,12 +615,12 @@
                         <span class="blog-date">Date</span> <div class="separator">|</div>
                         <a class="blog-tags green" href="#"><i class="fa fa-tag"></i> CASE</a>
                         <a href="#"><h3>News Title</h3></a>
-                        <p>...</p>
+                        <p>Jagdamba Motors, the authorised distributors of CASE Construction equipment in Nepal, has announced ‘Case Grand Sales Offer’ under which the company providing Europe Tour, TVS Stryker/Phoenix, 1 year free servicing and 7.99% interest available on the buying of Case Backhoe Loader/ Compactor.</p>
 
                         <div class="row">
                             <div class="col-xs-7">
                                 <div class="blog-item-profile">
-                                    <img src="assets/img/44w.jpg" alt="Image description"> <a href="#">author</a>
+                                    <img src="{{asset('images/testimonials.jpg')}}" alt="Image description"> <a href="#">author</a>
                                 </div>
                             </div>
                             <div class="col-xs-5 text-right">
@@ -633,17 +636,17 @@
 
             <div class="col-sm-4">
                 <div class="single-blog-item">
-                    <a href="#" class="zoomin"><img src="{{asset('images/tvsnews.jpg')}}" alt="Image Description"></a>
+                    <a href="#" class="zoomin"><img src="{{asset('images/jagadamba.png  ')}}" alt="Image Description"></a>
                     <div class="blog-item-info">
                         <span class="blog-date">Date</span> <div class="separator">|</div>
-                        <a class="blog-tags blue" href="#"><i class="fa fa-tag"></i> Jagadamba Motors</a>
+                        <a class="blog-tags blue" href="#"><i class="fa fa-tag"></i> Jagadamba Credit</a>
                         <a href="#"><h3>News Title</h3></a>
-                        <p>...</p>
+                        <p>Jagadamba Motors, the authorized sole distributor of TVS bikes in Nepal, has launched the new TVS Jupiter classic edition in Nepal. The scooter was launched in TVS Everest Premier League(EPL) finale where TVS was the title sponsor of the event. Jagadamba Motors, the authorized dealer of TVS motorcycles...</p>
 
                         <div class="row">
                             <div class="col-xs-7">
                                 <div class="blog-item-profile">
-                                    <img src="assets/img/10m.jpg" alt="Image description"> <a href="#">author</a>
+                                    <img src="{{asset('images/testimonials.jpg')}}" alt="Image description"> <a href="#">author</a>
                                 </div>
                             </div>
                             <div class="col-xs-5 text-right">
